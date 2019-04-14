@@ -1,0 +1,69 @@
+body {
+	background-color: #fefdfc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	background-color: #F8E3B8;
+    margin: auto;
+    border-radius: 4px;
+    height: 100%;
+    padding: 10px;
+    margin-top: 14px;
+    float: left;
+    position: relative;
+    margin-left: 200px;
+}
+
+.empty {
+	background-color: #f8f1e5;
+	position: absolute;
+}
+
+.active {
+	color: #fefdfc;
+	position: absolute;
+	box-shadow: 3px 3px 5px #dcc9a3;
+	text-align: center;
+	display: table;
+	font-size: 2em;
+	z-index: 2;
+}
+
+.active>p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cellClass {
+	width: 100px;
+	height: 100px;
+	border-radius: 3px;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+}
+
+.rowClass {
+	float: left;
+	position: relative;
+	margin-top: 3px;
+	height: 100px;
+}
+
+#settingsNote{
+	float: left;
+    position: relative;
+    width: 205px;
+    height: 77px;
+    margin-top: 14px;
+	margin-left: 10px;
+    background-color: #fffecf;
+    border-left: 6px solid #ecb2a5;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#currentSettings{
+	margin-left: 8px;
+}
