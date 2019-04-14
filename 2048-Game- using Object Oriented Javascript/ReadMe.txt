@@ -6,6 +6,7 @@ Controls Conf: Defualt set to "numPadControl", can be configured in GAME_CONF.js
     i. “arrowsControl” for Arrow movement.
     ii. “numPadControl” for number movement. 		
 	
+By Default game is configured to 4*4, configuration can be changed to 8*8 or 16*16 inside GAME_CONF.js
 
 Steps to Start :
 
